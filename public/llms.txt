@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+רוצה שטיח נקי ומבריק בלי מאמץ? השטיח הנקי מציע ניקיון שטיחים מקצועי בבית עם הזמנה קלה ומהירה אונליין. תוצאות מושלמות מובטחות — קבע תור עכשיו!
+
+### שירותים
+https://example.com/services
+מניקוי עמוק לשטיחי צמר ועד טיפול בכתמים עקשניים — שירותי ניקיון השטיחים שלנו מותאמים לכל סוג שטיח. גלה את מגוון הפתרונות המקצועיים שלנו והזמן שירות היום!
+
+### אודות
+https://example.com/about
+אנחנו לא סתם חברת ניקיון — אנחנו אנשי מקצוע שנלחמים בלכלוך בשבילך. הכר את הצוות שמאחורי שירות ניקיון השטיחים המוביל, עם ניסיון של שנים ומחויבות לאיכות ללא פשרות.
+
+### צור קשר
+https://example.com/contact
+יש לך שאלה או רוצה לקבוע תור לניקיון שטיחים מקצועי בבית? צור קשר עכשיו ונחזור אליך במהירות. הזמנה קלה, שירות מהיר ותוצאות שתאהב — אנחנו כאן בשבילך!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
