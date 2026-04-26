@@ -245,6 +245,345 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  padding-bottom: 80px;
+  direction: rtl;
+}
+
+/* Background Image */
+.index-hero-section .index-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Scrim Overlay */
+.index-hero-section .index-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(105deg, rgba(31,41,51,0.88) 0%, rgba(31,41,51,0.72) 50%, rgba(31,41,51,0.30) 100%),
+    linear-gradient(180deg, rgba(31,41,51,0.20) 0%, rgba(31,41,51,0.60) 100%);
+}
+
+/* Container */
+.index-hero-section .index-hero-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 48px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Content block — right-side text panel */
+.index-hero-section .index-hero-content {
+  max-width: 640px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  text-align: right;
+}
+
+/* Badges row */
+.index-hero-section .index-hero-badges {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.index-hero-section .index-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(31, 163, 163, 0.18);
+  border: 1px solid rgba(31, 163, 163, 0.45);
+  color: var(--accent);
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 6px 14px;
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.index-hero-section .index-hero-badge i {
+  font-size: 12px;
+  color: var(--primary);
+}
+
+/* H1 */
+.index-hero-section .index-hero-h1 {
+  font-family: 'Heebo', 'Assistant', Arial, sans-serif;
+  font-size: clamp(36px, 5vw, 60px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--text-light);
+  text-shadow: 0 2px 24px rgba(0,0,0,0.45);
+  margin: 0;
+}
+
+.index-hero-section .index-hero-h1 br {
+  display: block;
+}
+
+/* H3 subtitle */
+.index-hero-section .index-hero-h3 {
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.88);
+  text-shadow: 0 1px 12px rgba(0,0,0,0.35);
+  margin: 0;
+  max-width: 560px;
+}
+
+/* CTA Buttons */
+.index-hero-section .index-hero-ctas {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.index-hero-section .index-hero-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: #12A7A1;
+  color: #FFFFFF;
+  padding: 16px 34px;
+  border-radius: 4px;
+  border: 1px solid #12A7A1;
+  font-family: 'Heebo', 'Assistant', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,0.08), 0 8px 24px rgba(18, 167, 161, 0.35);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-btn-primary:hover {
+  background: #0f9490;
+  border-color: #0f9490;
+  transform: translateY(-2px);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,0.08), 0 14px 32px rgba(18, 167, 161, 0.45);
+  color: #FFFFFF;
+}
+
+.index-hero-section .index-hero-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: rgba(255,255,255,0.12);
+  color: #FFFFFF;
+  padding: 16px 34px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.45);
+  font-family: 'Heebo', 'Assistant', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: none;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-btn-secondary:hover {
+  background: rgba(255,255,255,0.22);
+  border-color: rgba(255,255,255,0.70);
+  transform: translateY(-2px);
+  color: #FFFFFF;
+}
+
+/* Trust Strip */
+.index-hero-section .index-hero-trust {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+  padding: 16px 20px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.index-hero-section .index-hero-trust-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.index-hero-section .index-hero-trust-item i {
+  font-size: 16px;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.index-hero-section .index-hero-trust-item span {
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.90);
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-trust-divider {
+  width: 1px;
+  height: 28px;
+  background: rgba(255,255,255,0.20);
+  margin: 0 4px;
+  flex-shrink: 0;
+}
+
+/* Bottom Divider */
+.index-hero-section .index-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .index-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100svh;
+    padding-bottom: 60px;
+    align-items: flex-start;
+  }
+
+  .index-hero-section .index-hero-container {
+    padding: 110px 20px 30px;
+    justify-content: center;
+  }
+
+  .index-hero-section .index-hero-content {
+    max-width: 100%;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: right;
+  }
+
+  .index-hero-section .index-hero-badges {
+    gap: 8px;
+  }
+
+  .index-hero-section .index-hero-badge {
+    font-size: 12px;
+    padding: 5px 11px;
+  }
+
+  .index-hero-section .index-hero-h1 {
+    font-size: clamp(28px, 7vw, 40px);
+  }
+
+  .index-hero-section .index-hero-h3 {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .index-hero-section .index-hero-ctas {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .index-hero-section .index-hero-btn-primary,
+  .index-hero-section .index-hero-btn-secondary {
+    width: 100%;
+    justify-content: center;
+    padding: 15px 24px;
+    font-size: 15px;
+  }
+
+  .index-hero-section .index-hero-trust {
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 16px;
+  }
+
+  .index-hero-section .index-hero-trust-divider {
+    width: 60%;
+    height: 1px;
+    margin: 0;
+  }
+
+  .index-hero-section .index-hero-trust-item {
+    justify-content: flex-start;
+    min-width: unset;
+    width: 100%;
+  }
+
+  .index-hero-section .index-hero-divider-wrapper {
+    height: 50px;
+  }
+
+  .index-hero-section {
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-hero-section .index-hero-container {
+    padding: 130px 36px 40px;
+  }
+
+  .index-hero-section .index-hero-content {
+    max-width: 580px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -793,42 +1132,72 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="index-hero-section">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" data-zappy-section="true" id="index-hero-section">
   <!-- Background Image -->
-  <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Bright daylight interior photography of a freshly cleaned living room with a vibrant patterned carpet, clean white walls, natural light streaming through large windows, and a professional carpet cleaning technician in a neat uniform operating a professional cleaning machine on the carpet. The scene feels hygienic, calm, and trustworthy. High-end residential setting, warm tones, professional service atmosphere." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="טכנאי ניקיון שטיחים מקצועי בסלון ביתי מואר ונקי" data-hero-background="true" data-element-type="image" data-element-id="img-1777199313559-ho33fpdh2">
-  </div>
+  <div class="index-hero-bg" style="background-image: url('assets/site-index-hero-image-1.webp'); background-size: cover; background-position: center;"></div>
 
   <!-- Scrim Overlay -->
   <div class="index-hero-scrim" aria-hidden="true"></div>
 
-  <!-- Content Card -->
+  <!-- Content -->
   <div class="index-hero-container">
-    <div class="index-hero-card">
-      <p><span class="index-hero-badge"><i class="fa-solid fa-star"></i> שירות מקצועי ואמין</span>
-      </p><h1 class="index-hero-h1" >ניקיון שטיחים מקצועי –<br>תיאום תור בקלות ובמהירות</h1>
-      <h3 class="index-hero-subtitle">שירות ניקיון שטיחים לבית ולמשרד, הסרת כתמים עיקשים וריחות, עם קביעת תור נוחה ומהירה. מגיעים אליכם!</h3>
+    <div class="index-hero-content">
+
+      <!-- Trust Badges Row -->
+      <div class="index-hero-badges">
+        <span class="index-hero-badge">
+          <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+          שירות מקצועי ואמין
+        </span>
+        <span class="index-hero-badge">
+          <i class="fa-solid fa-clock" aria-hidden="true"></i>
+          תגובה תוך 24 שעות
+        </span>
+      </div>
+
+      <!-- Headline -->
+      <h1 class="index-hero-h1">ניקיון שטיחים מקצועי –<br>תיאום תור בקלות ובמהירות</h1>
+
+      <!-- Subtitle -->
+      <h3 class="index-hero-h3">שירות ניקיון שטיחים לבית ולמשרד, הסרת כתמים עיקשים וריחות, עם קביעת תור נוחה ומהירה. מגיעים אליכם!</h3>
+
+      <!-- CTA Buttons -->
       <div class="index-hero-ctas">
-        <a href="/contact" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1777199313548-4m5bt0kin" data-native-element="true" style="outline: none;">
-          <i class="fa-solid fa-calendar-check"></i>
+        <a href="/contact" class="index-hero-btn-primary">
+          <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
           לקביעת תור
         </a>
-        <a href="/services" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1777199313548-gb10hj450" data-native-element="true">
-          <i class="fa-solid fa-list-check"></i>
+        <a href="/services" class="index-hero-btn-secondary">
+          <i class="fa-solid fa-broom" aria-hidden="true"></i>
           השירותים שלנו
         </a>
       </div>
+
+      <!-- Trust Strip -->
       <div class="index-hero-trust">
-        <span class="index-hero-trust-item"><i class="fa-solid fa-shield-halved" data-element-type="icon" data-element-id="icon-1777199313555-4q94hs9zf" data-icon-type="fontawesome"></i> מוצרים בטוחים לילדים ולחיות</span>
-        <span class="index-hero-trust-item" ><i class="fa-solid fa-clock" data-element-type="icon" data-element-id="icon-1777199313556-nlp102xcf" data-icon-type="fontawesome" style="cursor: pointer;"></i><p> תגובה תוך 24 שעות</p></span>
+        <div class="index-hero-trust-item">
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+          <span>מעל 500 לקוחות מרוצים</span>
+        </div>
+        <div class="index-hero-trust-divider" aria-hidden="true"></div>
+        <div class="index-hero-trust-item">
+          <i class="fa-solid fa-truck-fast" aria-hidden="true"></i>
+          <span>שירות עד הבית</span>
+        </div>
+        <div class="index-hero-trust-divider" aria-hidden="true"></div>
+        <div class="index-hero-trust-item">
+          <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+          <span>חומרים ידידותיים לסביבה</span>
+        </div>
       </div>
+
     </div>
   </div>
 
   <!-- Bottom Divider -->
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,48 Q120,28 240,44 T480,36 Q600,28 720,42 T960,34 Q1080,28 1200,44 L1200,80 Z" fill="#F3FAFE"></path>
+      <path d="M0,80 L0,48 Q150,20 300,40 T600,28 Q750,16 900,36 T1200,24 L1200,80 Z" fill="#F3FAFE"></path>
     </svg>
   </div>
 </section>
