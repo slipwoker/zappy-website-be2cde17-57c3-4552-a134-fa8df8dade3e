@@ -1,6 +1,4 @@
-# השטיח הנקי — Generative Engine Optimization Map
-
-> A carpet cleaning service business that aims to allow customers to book cleaning appointments online. The business focuses on providing professional carpet cleaning solutions, likely for residential or commercial clients, with an emphasis on convenience through online booking.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,21 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About השטיח הנקי
-A carpet cleaning service business that aims to allow customers to book cleaning appointments online. The business focuses on providing professional carpet cleaning solutions, likely for residential or commercial clients, with an emphasis on convenience through online booking.
-
-## Services/Products
-- ניקיון שטיחים
-
-## Target Audience
-- אנשי מקצוע צעירים עסוקים
-- משפחות עם ילדים
-- בעלי בתים מבוגרים
-- בעלי חיות מחמד
-
-## Industry
-ניקיון ושירותי בית
-
+## About Business
 ---
 
 # Additional Resources
