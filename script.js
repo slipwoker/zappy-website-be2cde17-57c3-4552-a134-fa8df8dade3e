@@ -1266,11 +1266,11 @@ window.onload = function() {
                     phoneHeaderBtn.addEventListener('click', function() {
                         // Dynamically get phone number from existing tel: links on the page
                         // This ensures the phone button uses the same number as other phone links
-                        // Falls back to [business_phone] placeholder which businessInfoUpdater can replace
+                        // Falls back to 0545750481 placeholder which businessInfoUpdater can replace
                         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
                         const phoneNumber = phoneLinks.length > 0 
                             ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-                            : '[business_phone]';
+                            : '0545750481';
                         window.location.href = 'tel:' + phoneNumber;
                     });
                 }
