@@ -1,47 +1,85 @@
-# Business — Generative Engine Optimization Map
+# השטיח הנקי — Generative Engine Optimization Map
+
+> A carpet cleaning service business that aims to allow customers to book cleaning appointments online. The business focuses on providing professional carpet cleaning solutions, likely for residential or commercial clients, with an emphasis on convenience through online booking.
 
 ---
 
 ## Pages
 
 ### בית
-https://hashatichhanaki.zappy5.app
+https://magic-carpet.co.il
 רוצה שטיח נקי ומבריק בלי מאמץ? השטיח הנקי מציע ניקיון שטיחים מקצועי בבית עם הזמנה קלה ומהירה אונליין. תוצאות מושלמות מובטחות — קבע תור עכשיו!
 
 ### שירותים
-https://hashatichhanaki.zappy5.app/services
+https://magic-carpet.co.il/services
 מניקוי עמוק לשטיחי צמר ועד טיפול בכתמים עקשניים — שירותי ניקיון השטיחים שלנו מותאמים לכל סוג שטיח. גלה את מגוון הפתרונות המקצועיים שלנו והזמן שירות היום!
 
 ### אודות
-https://hashatichhanaki.zappy5.app/about
+https://magic-carpet.co.il/about
 אנחנו לא סתם חברת ניקיון — אנחנו אנשי מקצוע שנלחמים בלכלוך בשבילך. הכר את הצוות שמאחורי שירות ניקיון השטיחים המוביל, עם ניסיון של שנים ומחויבות לאיכות ללא פשרות.
 
 ### צור קשר
-https://hashatichhanaki.zappy5.app/contact
+https://magic-carpet.co.il/contact
 יש לך שאלה או רוצה לקבוע תור לניקיון שטיחים מקצועי בבית? צור קשר עכשיו ונחזור אליך במהירות. הזמנה קלה, שירות מהיר ותוצאות שתאהב — אנחנו כאן בשבילך!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://hashatichhanaki.zappy5.app/privacy
+https://magic-carpet.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://hashatichhanaki.zappy5.app/terms
+https://magic-carpet.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://hashatichhanaki.zappy5.app/accessibility
+https://magic-carpet.co.il/accessibility
 Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- Email: tasitonikayon@gmail.com
+- Phone: 0545750481
+- Phone (tel): tel:0545750481
+- Address:  דרך בית לחם ירושלים , ירושלים 
+
+### Contact form
+- URL: https://magic-carpet.co.il/contact
+- Endpoint: https://magic-carpet.co.il/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `phone` (tel, required)
+  - `email` (email, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About השטיח הנקי
+A carpet cleaning service business that aims to allow customers to book cleaning appointments online. The business focuses on providing professional carpet cleaning solutions, likely for residential or commercial clients, with an emphasis on convenience through online booking.
+
+## Services/Products
+- ניקיון שטיחים
+
+## Target Audience
+- אנשי מקצוע צעירים עסוקים
+- משפחות עם ילדים
+- בעלי בתים מבוגרים
+- בעלי חיות מחמד
+
+## Industry
+ניקיון ושירותי בית
+
 ---
 
-# Additional Resources
+# Machine-readable feeds
 
-- **Sitemap**: https://hashatichhanaki.zappy5.app/sitemap.xml
-- **Robots.txt**: https://hashatichhanaki.zappy5.app/robots.txt
+- Sitemap (XML): https://magic-carpet.co.il/sitemap.xml
+- Robots: https://magic-carpet.co.il/robots.txt
+- Flattened page text (for LLMs): https://magic-carpet.co.il/llms-full.txt
